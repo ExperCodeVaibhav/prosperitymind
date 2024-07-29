@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        #kk{
+            width: 300px;
+            height: 280px;
+            border: 1px solid;
+            color: blue;
+            justify-content: center;
+            align-items: center;
+
+
+
+
+        }
+
+        #l{
+            color: black;
+            font-family: cursive;
+        }
+    </style>
+</head>
+<body>
+    <center><div id="kk"><h1 id="l"></h1></div></center>
+    <center><button onclick="abc()">fill color</button></center>
+</body>
+
+<script>
+function abc(){
+
+    document.getElementById('kk').style.backgroundColor="red";
+    document.getElementById('l').innerHTML="Welcome";
+
+
+}
+
+</script>
+</html>
